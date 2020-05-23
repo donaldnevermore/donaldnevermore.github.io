@@ -9,8 +9,8 @@
 - 王东程/男/1995
 - 本科·统招/深圳大学·经济学院·国际经济与贸易
 - 工作年限：1年+
-- 技术博客：https://blog.csdn.net/qq_37925422
-- GitHub：https://github.com/DongchengWang
+- 技术博客：[https://blog.csdn.net/qq_37925422](https://blog.csdn.net/qq_37925422)
+- GitHub：[https://github.com/DongchengWang](https://github.com/DongchengWang)
 - 期望职位：前端开发工程师
 - 期望薪资：税前月薪20k
 - 期望城市：深圳
