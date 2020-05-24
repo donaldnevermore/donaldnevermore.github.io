@@ -2,3 +2,6 @@
 .vs
 .vscode
 .idea
+
+# Output files
+output
