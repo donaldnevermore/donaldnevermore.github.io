@@ -12,7 +12,7 @@
 - 技术博客：[http://blog.pythonking.top/](http://blog.pythonking.top/)
 - GitHub：[https://github.com/DongchengWang](https://github.com/DongchengWang)
 - 期望职位：前端开发工程师
-- 期望薪资：税前月薪20k
+- 期望薪资：税前月薪 18K
 - 期望城市：深圳
 
 # 工作经历
@@ -25,11 +25,9 @@
 
 # 个人经历
 
-自学掌握 TypeScript/JavaScript/HTML/CSS 等前端技术
+自学 TypeScript/JavaScript/HTML/CSS 等前端技术
 
-自学掌握 React/Redux/Next/Ant design 等前端框架，同时也熟悉了 C#/.NET Core、Python/Django 等后端技术
-
-通过《代码大全（第2版）》、《算法（第4版）》、《C Primer Plus（第6版）》等经典书籍自学 CS 课程
+自学 React/Redux/Next/Ant design 等前端框架，同时也熟悉了 C#/.NET Core、Python/Django 等后端技术
 
 # 开源项目
 
