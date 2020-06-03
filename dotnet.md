@@ -4,15 +4,15 @@
 - Email：dongcheng6@qq.com
 - 微信号：15989513296
 
-# [个人信息](https://DongchengWang.github.io)
+# 个人信息
 
 - 王东程/男/1995
 - 本科·统招/深圳大学·经济学院·国际经济与贸易
 - 工作年限：1年+
 - 技术博客：[http://blog.pythonking.top/](http://blog.pythonking.top/)
 - GitHub：[https://github.com/DongchengWang](https://github.com/DongchengWang)
-- 期望职位：前端开发工程师
-- 期望薪资：税前月薪 18K
+- 期望职位：.NET 开发工程师
+- 期望薪资：税前月薪 15K
 - 期望城市：深圳
 
 # 工作经历
@@ -25,11 +25,11 @@
 
 # 个人经历
 
-熟悉 TypeScript/JavaScript/HTML/CSS 等前端技术
+熟悉 JavaScript/HTML/CSS 基础和 Angular/React 框架，熟悉 B/S 架构
 
-熟悉 React/Redux/Next/Ant design 等前端框架
+目标是全栈工程师，熟悉 C#/.NET Core 后端技术，熟悉 TDD、面向对象、多线程
 
-熟悉 C#/.NET Core 和 Python/Django 等后端技术
+了解 MySQL、Linux、Git、Python/Django，英语基础好
 
 # 开源项目
 
