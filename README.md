@@ -12,7 +12,7 @@
 - 技术博客：[http://blog.pythonking.top/](http://blog.pythonking.top/)
 - GitHub：[https://github.com/DongchengWang](https://github.com/DongchengWang)
 - 期望职位：.NET 开发工程师
-- 期望薪资：税前月薪 13~18K
+- 期望薪资：税前月薪 15K
 - 期望城市：深圳
 
 # 项目经历
