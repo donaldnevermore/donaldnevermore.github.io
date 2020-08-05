@@ -11,17 +11,13 @@
 - 工作年限：1年+
 - 技术博客：[http://blog.pythonking.top/](http://blog.pythonking.top/)
 - GitHub：[https://github.com/DongchengWang](https://github.com/DongchengWang)
-- 期望职位：前端开发工程师
+- 期望职位：.NET 开发工程师
 - 期望薪资：税前月薪 15K
 - 期望城市：深圳
 
 # 工作经历
 
-## 深圳市咫尺网络科技开发有限公司（1年+）
-
-用 TypeScript 将原先基于 JQuery 的后台管理系统重构为基于 Angular 的现代 SPA，通过加入静态类型，同时降低了线上 bug 率。
-
-参与重构小程序编辑器，完善类型定义，提高代码的可维护性，并且使用模块惰性加载和 Angular AOT 编译，大幅减少首屏加载时间。
+在深圳市咫尺网络科技开发有限公司做了一年多的 JavaScript 开发工程师，参与重构传统的后台管理系统和小程序编辑器，重构为 Angular/TypeScript 的现代 SPA，通过加入静态类型，降低了线上 bug 率。
 
 # 个人项目
 
@@ -29,9 +25,10 @@
 
 # 技能清单
 
+- 熟悉 C#/.NET Core、ASP.NET Core Web API、RESTful API
+- 掌握面向对象、SOLID、面向组件、TDD、敏捷开发、设计模式
+- 熟悉 MySQL、事务
+- 了解 Docker、微服务、DDD
+- 了解 Linux、HTTP、Git、Python
 - 掌握 TypeScript、JavaScript、HTML、CSS 和 Angular、React
-- 熟悉 React、Redux、Ant design 等框架
-- 掌握面向对象、模块化、TDD、MVVM、设计模式
-- 了解 Linux、HTTP、Git
-- 了解 .NET Core、MySQL、Python 等后端技术
 - 代码风格整洁，注重软件工程规范，英语 6 级
