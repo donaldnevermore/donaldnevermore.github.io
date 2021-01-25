@@ -11,7 +11,7 @@
 - 工作年限：2 年以上
 - 技术博客：[http://blog.pythonking.top/](http://blog.pythonking.top/)
 - GitHub：[https://github.com/DongchengWang](https://github.com/DongchengWang)
-- 期望职位：.NET 开发工程师
+- 期望职位：Go 开发工程师
 - 期望薪资：税前月薪 15K
 - 期望城市：深圳
 
@@ -30,7 +30,7 @@
 
 # 技能清单
 
-- 后端：C#, ASP.NET Core, Python, MySQL
-- 前端：TypeScript/JavaScript, Angular, React, Ant Design, HTML/CSS
-- 通用：HTTP, RESTful API, Git, OOP, SOLID, Design Patterns, TDD
-- 外语：大学英语 6 级，能流畅阅读英文文档
+- 后端：Go, Python, MySQL
+- 前端：TypeScript/JavaScript, React, Ant Design
+- 通用：HTTP, RESTful, OOP, SOLID, TDD
+- 外语：英语 6 级

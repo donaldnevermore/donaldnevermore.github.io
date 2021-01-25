@@ -30,7 +30,7 @@
 
 # 技能清单
 
-- 前端：TypeScript/JavaScript, Angular, React, Ant Design, HTML/CSS
-- 后端：C#, Python
-- 通用：HTTP, RESTful API, Git, OOP, SOLID, Design Patterns, TDD
-- 外语：大学英语 6 级，能流畅阅读英文文档
+- 前端：TypeScript/JavaScript, React, Ant Design, HTML/CSS
+- 后端：Node.js, Python, Go
+- 通用：HTTP, RESTful, OOP, SOLID, TDD
+- 外语：英语 6 级，读写能力很好
