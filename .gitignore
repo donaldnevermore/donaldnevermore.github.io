@@ -1,20 +1,14 @@
 # Output files
-output
-
-
-# History
-.history
+output/
 
 # IDEs
-.vs
-.vscode
-.idea
+.vs/
+.vscode/
+.idea/
 
 # Raw contents
-content/raw
+content/raw/
 
-# Lock files
-yarn.lock
 package-lock.json
 
 # Logs
