@@ -1,11 +1,11 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from "react"
+import { Link } from "gatsby"
 
-import { rhythm, scale } from "../utils/typography";
+import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
-    const rootPath = `${__PATH_PREFIX__}/`;
-    let header;
+    const rootPath = `${__PATH_PREFIX__}/`
+    let header
 
     if (location.pathname === rootPath) {
         header = (
@@ -18,40 +18,41 @@ const Layout = ({ location, title, children }) => {
             >
                 <Link
                     style={{
-                        boxShadow: `none`,
-                        color: `inherit`,
+                        boxShadow: "none",
+                        color: "inherit",
                     }}
-                    to={`/`}
+                    to={"/"}
                 >
                     {title}
                 </Link>
             </h1>
-        );
-    } else {
+        )
+    }
+    else {
         header = (
             <h3
                 style={{
-                    fontFamily: `Montserrat, sans-serif`,
+                    fontFamily: "Montserrat, sans-serif",
                     marginTop: 0,
                 }}
             >
                 <Link
                     style={{
-                        boxShadow: `none`,
-                        color: `inherit`,
+                        boxShadow: "none",
+                        color: "inherit",
                     }}
-                    to={`/`}
+                    to={"/"}
                 >
                     {title}
                 </Link>
             </h3>
-        );
+        )
     }
     return (
         <div
             style={{
-                marginLeft: `auto`,
-                marginRight: `auto`,
+                marginLeft: "auto",
+                marginRight: "auto",
                 maxWidth: rhythm(24),
                 padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
             }}
@@ -61,7 +62,7 @@ const Layout = ({ location, title, children }) => {
             <footer style={{ margin: "auto", textAlign: "center" }}>
                 <div>
                     © {new Date().getFullYear()}, Built with
-                    {` `}
+                    {" "}
                     <a href="https://www.gatsbyjs.org">Gatsby</a>
                 </div>
                 <div>
@@ -76,7 +77,7 @@ const Layout = ({ location, title, children }) => {
                 </div>
             </footer>
         </div>
-    );
-};
+    )
+}
 
-export default Layout;
+export default Layout
