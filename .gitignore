@@ -1,14 +1,12 @@
-# Output files
-output/
-
 # IDEs
 .vs/
 .vscode/
 .idea/
 
-# Raw contents
-content/raw/
-
+output/
+resume/
+old/
+raw/
 package-lock.json
 
 # Logs
