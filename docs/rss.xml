@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fujimiya Nevermore]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 06 Apr 2021 13:17:37 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new blog! How exciting! I’m sure I’ll write a lot more interesting things in the future.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Tue, 06 Apr 2021 06:35:41 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3ed57e203a217d8ea54ed705077551d9/34431/touhou.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAADZElEQVQozw2T+U+TBxjH3x+gnPJyrU5hMJ0HsBYFBJ1xcgTlKEjbAS0VylUo5xyVgW0p11sEioDSFhzHKJnhmnMaZixkks1l2ZZNl/26xV+X/RefvT98k+dKnjx5vh/hRLKS95TvEhcZz5mMDDLUalTqTEQxlqiISBSKaMSwcFlRJB1N4cOz6aQkHkX1fgox4RGIsuITkhGjE4iUYyH/XBoF5/NQf3AJS2sr/Z91Yq2vpvRCOpezs8g6V4BZp8dQokNXZKa+zoK5QkevpgxDZhb6TDXa8jIy1VeIiUlEkG61Yb1hoqOsgd8OtlmftuOsukFrRy2mhjoaK4wsuNxszKyxNRXA0WRl1uEiMDjG/DUNC41NOKanKa7oRXUmD+Fgexm/zc6b6XH+OwywMtrLD34Pv+9vEtjw8t26j+deL7ujS/wV/IXX364S9Ei83djhsa2TrSEbu/vPuC/NYu9qQXC2dGAzdrIhb/5zeYNN9zhb98f459UzZvyTvAys8e+rF/z0xS6P7+3xaEoiMDnBaOMYL9wufp3s48HMBGv+AFPSbQRLlY1xnRVPczdvf/6DpYl57MZqHm3P4ZRPeyn5OZyYYX/2IYsPgnid8+z5FtlfCxCc9LD3eTfGWhNzt+foqqpBcIys8cR+l799Eoffv8FSs8jOqpeDZRdLznF2RqYI+n1I1kG02mlWV5/y1ZSbH9dXeC5NsjvcgclgJfjNU9yuQQS7Y5aVfjv9FwvlD3+No91Hh0HPk7k2Nofa+HJEYqiwmLvmdu55Aiz41vFKHpzVFhaNpQT6aulpv8XywxFcjpsIA5ZGOjUayjNzsdaN0Vrey/DNMjaX+lm400VPiZHBtDQGKnXcGZihwdRJX1MPTepshosu4W0wUKs38InslJb6CgSrXkNNfj7Zp1W0twxSfkVPqSqd0S4TvSYD1XnF2OW8Xp2DuaaP6koTdR8VYDp2HFullm5DM+qzuTSbP6VSo0UozDlPbloGxxKSOHFVS2r6BU7FxaM+pSLt+ElOy3VdahLXU0+iyvgYnbaGq9k5JIeEUnI5l+sXcxHlmaIiDTnZsg8TY2OJjY5GERqGcERJSIRIdJhCRilWRiucSEUYyohwEmSsIuRevBhPnBhDaEgIyrgYEsUoQhSRvKNUyriK/A9NSPqQu/HP6wAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;touhou&quot;
+        title=&quot;touhou&quot;
+        src=&quot;/static/3ed57e203a217d8ea54ed705077551d9/6af66/touhou.png&quot;
+        srcset=&quot;/static/3ed57e203a217d8ea54ed705077551d9/69538/touhou.png 160w,
+/static/3ed57e203a217d8ea54ed705077551d9/72799/touhou.png 320w,
+/static/3ed57e203a217d8ea54ed705077551d9/6af66/touhou.png 640w,
+/static/3ed57e203a217d8ea54ed705077551d9/d9199/touhou.png 960w,
+/static/3ed57e203a217d8ea54ed705077551d9/21b4d/touhou.png 1280w,
+/static/3ed57e203a217d8ea54ed705077551d9/34431/touhou.png 1539w&quot;
+        sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Raven]]></title><description><![CDATA[BY EDGAR ALLAN POE Once upon a midnight dreary, while I pondered, weak and weary, Over many a quaint and curious volume of forgotten lore…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/the-raven/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/the-raven/</guid><pubDate>Mon, 05 Apr 2021 22:40:32 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;BY EDGAR ALLAN POE&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Once upon a midnight dreary, while I pondered, weak and weary,&lt;br&gt;
+Over many a quaint and curious volume of forgotten lore—&lt;br&gt;
+While I nodded, nearly napping, suddenly there came a tapping,&lt;br&gt;
+As of some one gently rapping, rapping at my chamber door.&lt;br&gt;
+“’Tis some visitor,” I muttered, “tapping at my chamber door—&lt;br&gt;
+Only this and nothing more.”&lt;/p&gt;
+&lt;p&gt;Ah, distinctly I remember it was in the bleak December;&lt;br&gt;
+And each separate dying ember wrought its ghost upon the floor.&lt;br&gt;
+Eagerly I wished the morrow;—vainly I had sought to borrow&lt;br&gt;
+From my books surcease of sorrow—sorrow for the lost Lenore—&lt;br&gt;
+For the rare and radiant maiden whom the angels name Lenore—&lt;br&gt;
+Nameless here for evermore.&lt;/p&gt;
+&lt;p&gt;And the silken, sad, uncertain rustling of each purple curtain&lt;br&gt;
+Thrilled me—filled me with fantastic terrors never felt before;&lt;br&gt;
+So that now, to still the beating of my heart, I stood repeating&lt;br&gt;
+“’Tis some visitor entreating entrance at my chamber door—&lt;br&gt;
+Some late visitor entreating entrance at my chamber door;—&lt;br&gt;
+This it is and nothing more.”&lt;/p&gt;
+&lt;p&gt;Presently my soul grew stronger; hesitating then no longer,&lt;br&gt;
+“Sir,” said I, “or Madam, truly your forgiveness I implore;&lt;br&gt;
+But the fact is I was napping, and so gently you came rapping,&lt;br&gt;
+And so faintly you came tapping, tapping at my chamber door,&lt;br&gt;
+That I scarce was sure I heard you”—here I opened wide the door;—&lt;br&gt;
+Darkness there and nothing more.&lt;/p&gt;
+&lt;p&gt;Deep into that darkness peering, long I stood there wondering, fearing,&lt;br&gt;
+Doubting, dreaming dreams no mortal ever dared to dream before;&lt;br&gt;
+But the silence was unbroken, and the stillness gave no token,&lt;br&gt;
+And the only word there spoken was the whispered word, “Lenore?”&lt;br&gt;
+This I whispered, and an echo murmured back the word, “Lenore!”—&lt;br&gt;
+Merely this and nothing more.&lt;/p&gt;
+&lt;p&gt;Back into the chamber turning, all my soul within me burning,&lt;br&gt;
+Soon again I heard a tapping somewhat louder than before.&lt;br&gt;
+“Surely,” said I, “surely that is something at my window lattice;&lt;br&gt;
+Let me see, then, what thereat is, and this mystery explore—&lt;br&gt;
+Let my heart be still a moment and this mystery explore;—&lt;br&gt;
+’Tis the wind and nothing more!”&lt;/p&gt;
+&lt;p&gt;Open here I flung the shutter, when, with many a flirt and flutter,&lt;br&gt;
+In there stepped a stately Raven of the saintly days of yore;&lt;br&gt;
+Not the least obeisance made he; not a minute stopped or stayed he;&lt;br&gt;
+But, with mien of lord or lady, perched above my chamber door—&lt;br&gt;
+Perched upon a bust of Pallas just above my chamber door—&lt;br&gt;
+Perched, and sat, and nothing more.&lt;/p&gt;
+&lt;p&gt;Then this ebony bird beguiling my sad fancy into smiling,&lt;br&gt;
+By the grave and stern decorum of the countenance it wore,&lt;br&gt;
+“Though thy crest be shorn and shaven, thou,” I said, “art sure no craven,&lt;br&gt;
+Ghastly grim and ancient Raven wandering from the Nightly shore—&lt;br&gt;
+Tell me what thy lordly name is on the Night’s Plutonian shore!”&lt;br&gt;
+Quoth the Raven “Nevermore.”&lt;/p&gt;
+&lt;p&gt;Much I marvelled this ungainly fowl to hear discourse so plainly,&lt;br&gt;
+Though its answer little meaning—little relevancy bore;&lt;br&gt;
+For we cannot help agreeing that no living human being&lt;br&gt;
+Ever yet was blessed with seeing bird above his chamber door—&lt;br&gt;
+Bird or beast upon the sculptured bust above his chamber door,&lt;br&gt;
+With such name as “Nevermore.”&lt;/p&gt;
+&lt;p&gt;But the Raven, sitting lonely on the placid bust, spoke only&lt;br&gt;
+That one word, as if his soul in that one word he did outpour.&lt;br&gt;
+Nothing farther then he uttered—not a feather then he fluttered—&lt;br&gt;
+Till I scarcely more than muttered “Other friends have flown before—&lt;br&gt;
+On the morrow he will leave me, as my Hopes have flown before.”&lt;br&gt;
+Then the bird said “Nevermore.”&lt;/p&gt;
+&lt;p&gt;Startled at the stillness broken by reply so aptly spoken,&lt;br&gt;
+“Doubtless,” said I, “what it utters is its only stock and store&lt;br&gt;
+Caught from some unhappy master whom unmerciful Disaster&lt;br&gt;
+Followed fast and followed faster till his songs one burden bore—&lt;br&gt;
+Till the dirges of his Hope that melancholy burden bore&lt;br&gt;
+Of ‘Never—nevermore’.”&lt;/p&gt;
+&lt;p&gt;But the Raven still beguiling all my fancy into smiling,&lt;br&gt;
+Straight I wheeled a cushioned seat in front of bird, and bust and door;&lt;br&gt;
+Then, upon the velvet sinking, I betook myself to linking&lt;br&gt;
+Fancy unto fancy, thinking what this ominous bird of yore—&lt;br&gt;
+What this grim, ungainly, ghastly, gaunt, and ominous bird of yore&lt;br&gt;
+Meant in croaking “Nevermore.”&lt;/p&gt;
+&lt;p&gt;This I sat engaged in guessing, but no syllable expressing&lt;br&gt;
+To the fowl whose fiery eyes now burned into my bosom’s core;&lt;br&gt;
+This and more I sat divining, with my head at ease reclining&lt;br&gt;
+On the cushion’s velvet lining that the lamp-light gloated o’er,&lt;br&gt;
+But whose velvet-violet lining with the lamp-light gloating o’er,&lt;br&gt;
+She shall press, ah, nevermore!&lt;/p&gt;
+&lt;p&gt;Then, methought, the air grew denser, perfumed from an unseen censer&lt;br&gt;
+Swung by Seraphim whose foot-falls tinkled on the tufted floor.&lt;br&gt;
+“Wretch,” I cried, “thy God hath lent thee—by these angels he hath sent thee&lt;br&gt;
+Respite—respite and nepenthe from thy memories of Lenore;&lt;br&gt;
+Quaff, oh quaff this kind nepenthe and forget this lost Lenore!”&lt;br&gt;
+Quoth the Raven “Nevermore.”&lt;/p&gt;
+&lt;p&gt;“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!—&lt;br&gt;
+Whether Tempter sent, or whether tempest tossed thee here ashore,&lt;br&gt;
+Desolate yet all undaunted, on this desert land enchanted—&lt;br&gt;
+On this home by Horror haunted—tell me truly, I implore—&lt;br&gt;
+Is there—is there balm in Gilead?—tell me—tell me, I implore!”&lt;br&gt;
+Quoth the Raven “Nevermore.”&lt;/p&gt;
+&lt;p&gt;“Prophet!” said I, “thing of evil!—prophet still, if bird or devil!&lt;br&gt;
+By that Heaven that bends above us—by that God we both adore—&lt;br&gt;
+Tell this soul with sorrow laden if, within the distant Aidenn,&lt;br&gt;
+It shall clasp a sainted maiden whom the angels name Lenore—&lt;br&gt;
+Clasp a rare and radiant maiden whom the angels name Lenore.”&lt;br&gt;
+Quoth the Raven “Nevermore.”&lt;/p&gt;
+&lt;p&gt;“Be that word our sign of parting, bird or fiend!” I shrieked, upstarting—&lt;br&gt;
+“Get thee back into the tempest and the Night’s Plutonian shore!&lt;br&gt;
+Leave no black plume as a token of that lie thy soul hath spoken!&lt;br&gt;
+Leave my loneliness unbroken!—quit the bust above my door!&lt;br&gt;
+Take thy beak from out my heart, and take thy form from off my door!”&lt;br&gt;
+Quoth the Raven “Nevermore.”&lt;/p&gt;
+&lt;p&gt;And the Raven, never flitting, still is sitting, still is sitting&lt;br&gt;
+On the pallid bust of Pallas just above my chamber door;&lt;br&gt;
+And his eyes have all the seeming of a demon’s that is dreaming,&lt;br&gt;
+And the lamp-light o’er him streaming throws his shadow on the floor;&lt;br&gt;
+And my soul from out that shadow that lies floating on the floor&lt;br&gt;
+Shall be lifted—nevermore!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why Can't a Predictive Parser Handle a Left-Recursive Grammar?]]></title><description><![CDATA[This is WIP… The left recursion is like a serpent eating its own tail. In general, a production consists of a nonterminal that represents a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/predictive-parser-and-left-recursive-grammar/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/predictive-parser-and-left-recursive-grammar/</guid><pubDate>Thu, 01 Apr 2021 20:28:26 GMT</pubDate><content:encoded>&lt;p&gt;This is WIP…&lt;/p&gt;
+&lt;p&gt;The left recursion is like a serpent eating its own tail.&lt;/p&gt;
+&lt;p&gt;In general, a production consists of a nonterminal that represents a set of strings of terminals, together with a fixed
+rule that describes how the body can be formed…&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 640px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/4f9b78b33a04e114edc25962e285c663/4c42d/left-recursion.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 44.375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAvklEQVQoz5VR2Q7DIAzj/z90L+tBS2AcBS9Ba7deWmvJSgOW4xSFH5RSsOpjWs629QxqayY1jxZ5IK7MwaA4f8msGopopkCMxKBM03eAmIa49Eec79R2lazN7hcUH5aUZ5i1arUKp8qPZ00jJpBUXDM5TpwxZaZouKaUKq21iDHuE4rIjAbUa5i2R2Iz4j68XiAiNE0LrTW895XOObR81nV9/T5cOfH0wNMiTxakTxqhpJCE91a+gFuPcoX/tG9rI8hCoFyk5QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;left-recursion&quot;
+        title=&quot;left-recursion&quot;
+        src=&quot;/static/4f9b78b33a04e114edc25962e285c663/6af66/left-recursion.png&quot;
+        srcset=&quot;/static/4f9b78b33a04e114edc25962e285c663/69538/left-recursion.png 160w,
+/static/4f9b78b33a04e114edc25962e285c663/72799/left-recursion.png 320w,
+/static/4f9b78b33a04e114edc25962e285c663/6af66/left-recursion.png 640w,
+/static/4f9b78b33a04e114edc25962e285c663/4c42d/left-recursion.png 896w&quot;
+        sizes=&quot;(max-width: 640px) 100vw, 640px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
