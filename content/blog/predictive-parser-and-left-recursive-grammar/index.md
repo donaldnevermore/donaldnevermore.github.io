@@ -2,7 +2,7 @@
 title: "Why Can't a Predictive Parser Handle a Left-Recursive Grammar?"
 date: "2021-04-01T20:28:26.667Z"
 update: "2021-04-06T06:35:41.282Z"
-category: "tech"
+description: "tech"
 ---
 
 This is WIP...

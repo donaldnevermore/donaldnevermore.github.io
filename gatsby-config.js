@@ -1,8 +1,8 @@
 module.exports = {
     siteMetadata: {
-        title: `Fujimiya Nevermore`,
+        title: `Fujimiya D. Nevermore`,
         author: {
-            name: `Fujimiya Nevermore`,
+            name: `Fujimiya D. Nevermore`,
             summary: `who is a self-taught Gaia developer eager to learn CS, PLT, \
              literature, philosophy, C, C#, Go, Java, and TypeScript. Gaiiiiiaaaaa~`
         },
@@ -36,7 +36,7 @@ module.exports = {
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
-                            maxWidth: 640
+                            maxWidth: 630
                         }
                     },
                     {

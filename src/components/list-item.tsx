@@ -1,7 +1,7 @@
-import { Link } from "gatsby";
-import * as React from "react";
+import { Link } from "gatsby"
+import * as React from "react"
 
-const ListItem = ({post}) => {
+const ListItem = ({post}: { post }) => {
     const title = post.frontmatter.title || post.fields.slug
 
     return (
@@ -18,13 +18,8 @@ const ListItem = ({post}) => {
                     </h2>
                 </header>
                 <section>
-                    <p className="date">{post.frontmatter.date}, modified: {post.frontmatter.update}</p>
-                    <p className="excerpt"
-                        dangerouslySetInnerHTML={{
-                            __html: post.excerpt,
-                        }}
-                        itemProp="description"
-                    />
+                    <p className="date">{post.frontmatter.date}</p>
+                    <p className="excerpt" dangerouslySetInnerHTML={{__html: post.excerpt,}} itemProp="description"/>
                 </section>
             </article>
         </li>

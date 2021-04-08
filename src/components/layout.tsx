@@ -1,10 +1,10 @@
 import * as React from "react"
-import Nav from "./nav";
-import { graphql, useStaticQuery } from "gatsby";
+import Nav from "./nav"
+import { graphql, useStaticQuery } from "gatsby"
 
 declare const __PATH_PREFIX__
 
-const Layout = ({location, title, children}) => {
+const Layout = ({location, title, children}: { location, title, children }) => {
     const data = useStaticQuery(graphql`
     query LayoutQuery {
       site {
@@ -31,13 +31,19 @@ const Layout = ({location, title, children}) => {
             <main className="main-content">{children}</main>
             <hr/>
             <footer className={`foot`}>
-                <p>
-                    © {new Date().getFullYear()}, Built with
-                    {` `}
-                    <a href="https://www.gatsbyjs.com" target="_blank">Gatsby</a>
-                    <br/>
-                    © {new Date().getFullYear()}, Written by <strong>{author.name}</strong>
-                </p>
+                <section>
+                    <a href={`/rss.xml`} target={`_blank`}>RSS Feed</a>
+                </section>
+                <section>
+                    <section>
+                        © {new Date().getFullYear()}, Built with
+                        {` `}
+                        <a href="https://www.gatsbyjs.com" target="_blank">Gatsby</a>
+                    </section>
+                    <section>
+                        © {new Date().getFullYear()}, Written by <strong>{author.name}</strong>
+                    </section>
+                </section>
             </footer>
         </article>
     )

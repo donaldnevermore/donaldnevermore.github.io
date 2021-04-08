@@ -4,9 +4,9 @@ import { Link, graphql } from "gatsby"
 import Reply from "../components/reply"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import License from "../components/license";
+import License from "../components/license"
 
-const BlogPostTemplate = ({data, location}) => {
+const BlogPostTemplate = ({data, location}: { data, location }) => {
     const post = data.markdownRemark
     const siteTitle = data.site.siteMetadata?.title || `Title`
     const {previous, next} = data

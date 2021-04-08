@@ -89,6 +89,7 @@
 .nav-bar {
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 .nav-bar a {
@@ -128,8 +129,7 @@
 }
 
 .foot {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: var(--fontSize-3);
 }
 

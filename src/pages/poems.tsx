@@ -1,10 +1,10 @@
 import * as React from "react"
 
-import List from "../components/list";
-import { graphql } from "gatsby";
+import List from "../components/list"
+import { graphql } from "gatsby"
 
-const Poems = ({data, location}) => {
-    return <List data={data} location={location} category={"poems"}/>
+const Poems = ({data, location}: { data, location }) => {
+    return <List data={data} location={location} description={`poems`}/>
 }
 
 export default Poems
@@ -30,7 +30,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           update(formatString: "MMMM DD, YYYY")
           title
-          category
+          description
         }
       }
     }

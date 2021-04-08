@@ -1,13 +1,15 @@
 import * as React from "react"
-import Layout from "../components/layout";
-import Bio from "../components/bio";
-import { graphql } from "gatsby";
+import Layout from "../components/layout"
+import Bio from "../components/bio"
+import { graphql } from "gatsby"
+import SEO from "../components/seo"
 
-const About = ({data, location}) => {
+const About = ({data, location}: { data, location }) => {
     const siteTitle = data.site.siteMetadata?.title || `Title`
 
     return (
         <Layout location={location} title={siteTitle}>
+            <SEO title="about"/>
             <Bio/>
         </Layout>
     )
@@ -36,10 +38,9 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           update(formatString: "MMMM DD, YYYY")
           title
-          category
+          description
         }
       }
     }
   }
 `
-
