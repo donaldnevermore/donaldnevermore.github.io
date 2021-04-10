@@ -23,7 +23,9 @@ const BlogPostTemplate = ({data, location}: { data, location }) => {
                 itemType="http://schema.org/Article">
                 <header>
                     <h1 itemProp="headline">{post.frontmatter.title}</h1>
-                    <p className={`post-date`}>{post.frontmatter.date}, modified: {post.frontmatter.update}</p>
+                    <p className={`post-date`}>
+                        Posted: {post.frontmatter.date}, last modified: {post.frontmatter.update}
+                    </p>
                 </header>
                 <section
                     dangerouslySetInnerHTML={{__html: post.html}}
@@ -82,8 +84,9 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        update(formatString: "MMMM DD, YYYY")
+        date(formatString: "MMMM DD YYYY, hh:mm a")
+        update(formatString: "MMMM DD YYYY, hh:mm a")
+        description
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
