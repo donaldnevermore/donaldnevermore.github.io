@@ -3,11 +3,11 @@ import * as React from "react"
 import List from "../components/list"
 import { graphql } from "gatsby"
 
-const Poems = ({data, location}: { data, location }) => {
-    return <List data={data} location={location} description={`poems`}/>
+const Tweets = ({data, location}: { data, location }) => {
+    return <List data={data} location={location} description={`tweets`}/>
 }
 
-export default Poems
+export default Tweets
 
 export const pageQuery = graphql`
   query {
@@ -27,8 +27,8 @@ export const pageQuery = graphql`
           slug
         }
         frontmatter {
-          date(formatString: "MMMM DD YYYY, hh:mm a")
-          update(formatString: "MMMM DD YYYY, hh:mm a")
+          date(formatString: "YYYY-MM-DD, hh:mm a")
+          update(formatString: "YYYY-MM-DD, hh:mm a")
           title
           description
         }

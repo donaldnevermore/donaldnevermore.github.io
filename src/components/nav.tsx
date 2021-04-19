@@ -8,7 +8,7 @@ const Nav = () => {
         siteMetadata {
           social {
             twitter
-            github
+            email
           }
         }
       }
@@ -22,21 +22,18 @@ const Nav = () => {
             <Link className="nav-item" to={"/"}>
                 Home
             </Link>
-            <Link to={"/thoughts"}>
-                Thoughts
-            </Link>
-            <Link to={"/poems"}>
-                Poems
+            <Link to={"/tweets"}>
+                Tweets
             </Link>
             <Link to={"/about"}>
                 About
             </Link>
-            <Link to={`https://github.com/${social?.github || ``}`} target="_blank">
-                GitHub
-            </Link>
-            <Link to={`https://twitter.com/${social?.twitter || ``}`} target="_blank">
+            <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank">
                 Twitter
-            </Link>
+            </a>
+            <a href={`mailto:${social.email}`} target={`_blank`}>
+                Email
+            </a>
         </nav>
     )
 }

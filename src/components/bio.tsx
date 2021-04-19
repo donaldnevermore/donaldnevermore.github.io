@@ -20,6 +20,8 @@ const Bio = () => {
           }
           social {
             twitter
+            github
+            email
           }
         }
       }
@@ -31,24 +33,35 @@ const Bio = () => {
     const social = data.site.siteMetadata?.social
 
     return (
-        <div className="bio">
-            <StaticImage
-                className="bio-avatar"
-                layout="fixed"
-                formats={["AUTO", "WEBP", "AVIF"]}
-                src="../images/profile-pic.jpg"
-                width={50}
-                height={50}
-                quality={95}
-                alt="Profile picture"
-            />
-            {author?.name && (
-                <p>
-                    Written by <strong>{author.name}</strong> {author?.summary || null}
-                </p>
-            )}
-            <hr/>
-        </div>
+        <article>
+            <section className="bio">
+                <StaticImage
+                    className="bio-avatar"
+                    layout="fixed"
+                    formats={["AUTO", "WEBP", "AVIF"]}
+                    src="../images/profile-pic.jpg"
+                    width={50}
+                    height={50}
+                    quality={95}
+                    alt="Profile picture"
+                />
+                {author?.name && (
+                    <p>
+                        Written by <strong>{author.name}</strong> {author?.summary || null}
+                    </p>
+                )}
+                <hr/>
+            </section>
+            <section>
+                <a href={`mailto:${social.email}`} target={`_blank`}>
+                    {social.email}
+                </a>
+                <a href={`https://github.com/${social?.github || ``}`} target="_blank">
+                    GitHub
+                </a>
+            </section>
+        </article>
+
     )
 }
 

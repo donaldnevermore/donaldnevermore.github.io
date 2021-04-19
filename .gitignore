@@ -3,10 +3,8 @@
 .vscode/
 .idea/
 
-output/
-resume/
-old/
-raw/
+content/old/
+content/raw/
 package-lock.json
 
 # Logs

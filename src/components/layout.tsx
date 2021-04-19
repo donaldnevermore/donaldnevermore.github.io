@@ -13,12 +13,16 @@ const Layout = ({location, title, children}: { location, title, children }) => {
             name
             summary
           }
+          social {
+            email
+          }
         }
       }
     }
   `)
 
     const author = data.site.siteMetadata?.author
+    const social = data.site.siteMetadata?.social
     const rootPath = `${__PATH_PREFIX__}/`
     const isRootPath = location.pathname === rootPath
 
@@ -41,7 +45,11 @@ const Layout = ({location, title, children}: { location, title, children }) => {
                         <a href="https://www.gatsbyjs.com" target="_blank">Gatsby</a>
                     </section>
                     <section>
-                        © {new Date().getFullYear()}, Written by <strong>{author.name}</strong>
+                        © {new Date().getFullYear()}, Written by
+                        {` `}
+                        <a href={`https://twitter.com/${social?.twitter || ``}`} target={`_blank`}>
+                            {author.name}
+                        </a>
                     </section>
                 </section>
             </footer>
