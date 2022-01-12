@@ -22,17 +22,20 @@ const Nav = () => {
             <Link className="nav-item" to={"/"}>
                 Home
             </Link>
-            <Link to={"/tweets"}>
-                Tweets
+            <Link to={"/blogs"}>
+                Blogs
+            </Link>
+            <Link to={"/misc"}>
+                Miscellaneous
             </Link>
             <Link to={"/about"}>
                 About
             </Link>
-            <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank">
-                Twitter
-            </a>
-            <a href={`mailto:${social.email}`} target={`_blank`}>
+            <a href={`mailto:${social.email}`} target="_blank" rel="noreferrer">
                 Email
+            </a>
+            <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank" rel="noreferrer">
+                Twitter
             </a>
         </nav>
     )

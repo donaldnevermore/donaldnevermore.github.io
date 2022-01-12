@@ -2,7 +2,7 @@
 title: "TWENTY LESSONS ON FIGHTING TYRANNY FROM THE TWENTIETH CENTURY"
 date: "2021-01-07T19:36:03.698Z"
 update: "2021-04-19T12:47:03.698Z"
-description: "tweets"
+description: "misc"
 ---
 
 > By Timothy Snyder at Yale University

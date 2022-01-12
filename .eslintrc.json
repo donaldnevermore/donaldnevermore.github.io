@@ -4,46 +4,27 @@
         "es2021": true,
         "node": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
-    ],
+    "extends": ["plugin:react/recommended", "standard"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
-        "ecmaVersion": 12,
+        "ecmaVersion": 2021,
         "sourceType": "module"
     },
-    "plugins": [
-        "react",
-        "@typescript-eslint"
-    ],
+    "plugins": ["react", "@typescript-eslint"],
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "double",
+        "indent": ["warn", 4],
+        "brace-style": ["warn", "stroustrup"],
+        "quotes": ["warn", "double"],
+        "space-before-function-paren": [
+            "warn",
             {
-                "allowTemplateLiterals": true
+                "anonymous": "always",
+                "named": "never",
+                "asyncArrow": "never"
             }
-        ],
-        "semi": [
-            "error",
-            "never"
-        ],
-        "brace-style": [
-            "error",
-            "stroustrup"
         ]
     }
 }

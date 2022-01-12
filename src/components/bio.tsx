@@ -53,15 +53,11 @@ const Bio = () => {
                 <hr/>
             </section>
             <section>
-                <a href={`mailto:${social.email}`} target={`_blank`}>
-                    {social.email}
-                </a>
                 <a href={`https://github.com/${social?.github || ``}`} target="_blank">
                     GitHub
                 </a>
             </section>
         </article>
-
     )
 }
 

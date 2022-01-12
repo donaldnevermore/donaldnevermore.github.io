@@ -2,7 +2,7 @@
 title: "The Road Not Taken"
 date: "2021-04-09T14:18:38.877Z"
 update: "2021-04-09T14:18:38.877Z"
-description: "tweets"
+description: "misc"
 ---
 
 > BY ROBERT FROST

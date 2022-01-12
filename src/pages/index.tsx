@@ -4,7 +4,7 @@ import List from "../components/list"
 import { graphql } from "gatsby"
 
 const BlogIndex = ({data, location}: { data, location }) => {
-    return <List data={data} location={location} description={`tech`}/>
+    return <List data={data} location={location} description={`blogs`}/>
 }
 
 export default BlogIndex

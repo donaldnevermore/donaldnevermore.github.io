@@ -1,16 +1,15 @@
 module.exports = {
     siteMetadata: {
-        title: `Fujimiya D. Nevermore`,
+        title: `Donald33 D. Nevermore`,
         author: {
-            name: `Fujimiya D. Nevermore`,
-            summary: `who is a self-taught Gaia developer eager to learn CS, PLT, \
-             literature, philosophy, C, C#, Go, Java, and TypeScript. Gaiiiiiaaaaa~`
+            name: `Donald33 D. Nevermore`,
+            summary: `a self-taught hacker and linguist`
         },
         description: `A starter blog demonstrating what Gatsby can do.`,
         siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
         social: {
             twitter: `Donald33Wang`,
-            github: `DongchengWang`,
+            github: `donaldnevermore`,
             email: `donald33wang@gmail.com`
         }
     },

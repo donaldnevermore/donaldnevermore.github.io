@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Fujimiya D. Nevermore]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 08 Apr 2021 15:04:51 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[This is my first post on my new blog! How exciting! I’m sure I’ll write a lot more interesting things in the future.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Tue, 06 Apr 2021 06:35:41 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new blog! How exciting!&lt;/p&gt;
-&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Donald33 D. Nevermore]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Jan 2022 14:51:17 GMT</lastBuildDate><item><title><![CDATA[fork and printf]]></title><description><![CDATA[is non-deterministic, and sometime this can be a real problem. To solve this kind of problem, you may need to rely on your previous…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/fork-and-printf/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/fork-and-printf/</guid><pubDate>Fri, 23 Apr 2021 13:36:10 GMT</pubDate><content:encoded>&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;fork()&lt;/code&gt; is non-deterministic, and sometime this can be a real problem. To solve this kind of problem, you may need to rely on your previous experience.&lt;/p&gt;
+&lt;p&gt;One day when experimenting on &lt;code class=&quot;language-text&quot;&gt;fork()&lt;/code&gt;, I got a strange print message:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;output&quot;&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;c&quot;&gt;&lt;pre class=&quot;language-c&quot;&gt;&lt;code class=&quot;language-c&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I was surprised and could not figure out why for a while. Since I am using CLion and WSL 2, I soon realized that maybe it was the fault of CLion. So I ran the executable myself. A different print message came to my eyes.&lt;/p&gt;
+&lt;p&gt;No wonder.&lt;/p&gt;
+&lt;p&gt;After a long time of thinking, I related to procedures of how shells work. When you type in a command and hit enter, the shell program first creates a process to run that command. The control soon returns to the shell after the command program is finished. However, if the command program creates a subprocess, and the subprocess is still running even if the main process has already returned, this can happen.&lt;/p&gt;
+&lt;p&gt;In order to check my assumption, I decided to &lt;code class=&quot;language-text&quot;&gt;wait()&lt;/code&gt; for the child process to finish. And this time it worked perfectly.&lt;/p&gt;
+&lt;p&gt;Be careful of the environment you are using. Search the database in your brain.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Road Not Taken]]></title><description><![CDATA[BY ROBERT FROST Two roads diverged in a yellow wood, And sorry I could not travel both And be one traveler, long I stood And looked down one…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/the-road-not-taken/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/the-road-not-taken/</guid><pubDate>Fri, 09 Apr 2021 14:18:38 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;BY ROBERT FROST&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Two roads diverged in a yellow wood,&lt;br&gt;
+And sorry I could not travel both&lt;br&gt;
+And be one traveler, long I stood&lt;br&gt;
+And looked down one as far as I could&lt;br&gt;
+To where it bent in the undergrowth;&lt;/p&gt;
+&lt;p&gt;Then took the other, as just as fair,&lt;br&gt;
+And having perhaps the better claim,&lt;br&gt;
+Because it was grassy and wanted wear;&lt;br&gt;
+Though as for that the passing there&lt;br&gt;
+Had worn them really about the same,&lt;/p&gt;
+&lt;p&gt;And both that morning equally lay&lt;br&gt;
+In leaves no step had trodden black.&lt;br&gt;
+Oh, I kept the first for another day!&lt;br&gt;
+Yet knowing how way leads on to way,&lt;br&gt;
+I doubted if I should ever come back.&lt;/p&gt;
+&lt;p&gt;I shall be telling this with a sigh&lt;br&gt;
+Somewhere ages and ages hence:&lt;br&gt;
+Two roads diverged in a wood, and I—&lt;br&gt;
+I took the one less traveled by,&lt;br&gt;
+And that has made all the difference.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[Guess who’s back, back again? Donald33 D. Nevermore is back, tell a friend. This is my first post on my new blog! How exciting! I never…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/hello-world/</guid><pubDate>Tue, 06 Apr 2021 06:35:41 GMT</pubDate><content:encoded>&lt;p&gt;Guess who’s back, back again?&lt;/p&gt;
+&lt;p&gt;Donald33 D. Nevermore is back, tell a friend.&lt;/p&gt;
+&lt;p&gt;This is my first post on my new blog! How exciting! I never thought it could happen, but here we are!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future. Oh, sometimes I retweet random stuff on the Retweets
+page, check it out if you are curious~&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
@@ -141,37 +174,64 @@ On the pallid bust of Pallas just above my chamber door;&lt;br&gt;
 And his eyes have all the seeming of a demon’s that is dreaming,&lt;br&gt;
 And the lamp-light o’er him streaming throws his shadow on the floor;&lt;br&gt;
 And my soul from out that shadow that lies floating on the floor&lt;br&gt;
-Shall be lifted—nevermore!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why Can't a Predictive Parser Handle a Left-Recursive Grammar?]]></title><description><![CDATA[This is WIP… The left recursion is like a serpent eating its own tail. In general, a production consists of a nonterminal that represents a…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/predictive-parser-and-left-recursive-grammar/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/predictive-parser-and-left-recursive-grammar/</guid><pubDate>Thu, 01 Apr 2021 20:28:26 GMT</pubDate><content:encoded>&lt;p&gt;This is WIP…&lt;/p&gt;
-&lt;p&gt;The left recursion is like a serpent eating its own tail.&lt;/p&gt;
-&lt;p&gt;In general, a production consists of a nonterminal that represents a set of strings of terminals, together with a fixed
-rule that describes how the body can be formed…&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/4f9b78b33a04e114edc25962e285c663/4c42d/left-recursion.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 44.30379746835443%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAvklEQVQoz5VR2Q7DIAzj/z90L+tBS2AcBS9Ba7deWmvJSgOW4xSFH5RSsOpjWs629QxqayY1jxZ5IK7MwaA4f8msGopopkCMxKBM03eAmIa49Eec79R2lazN7hcUH5aUZ5i1arUKp8qPZ00jJpBUXDM5TpwxZaZouKaUKq21iDHuE4rIjAbUa5i2R2Iz4j68XiAiNE0LrTW895XOObR81nV9/T5cOfH0wNMiTxakTxqhpJCE91a+gFuPcoX/tG9rI8hCoFyk5QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;left-recursion&quot;
-        title=&quot;left-recursion&quot;
-        src=&quot;/static/4f9b78b33a04e114edc25962e285c663/f058b/left-recursion.png&quot;
-        srcset=&quot;/static/4f9b78b33a04e114edc25962e285c663/c26ae/left-recursion.png 158w,
-/static/4f9b78b33a04e114edc25962e285c663/6bdcf/left-recursion.png 315w,
-/static/4f9b78b33a04e114edc25962e285c663/f058b/left-recursion.png 630w,
-/static/4f9b78b33a04e114edc25962e285c663/4c42d/left-recursion.png 896w&quot;
-        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+Shall be lifted—nevermore!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TWENTY LESSONS ON FIGHTING TYRANNY FROM THE TWENTIETH CENTURY]]></title><description><![CDATA[By Timothy Snyder at Yale University Americans are no wiser than the Europeans who saw democracy yield to fascism, Nazism or communism. Our…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/twenty-lesssons/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/twenty-lesssons/</guid><pubDate>Thu, 07 Jan 2021 19:36:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;By Timothy Snyder at Yale University&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Americans are no wiser than the Europeans who saw democracy yield to fascism, Nazism or communism. Our one advantage is
+that we might learn from their experience. Now is a good time to do so. From across the fearful twentieth century, here
+are twenty lessons about what it takes to oppose tyranny, adapted to the circumstances of today.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;1. Do not obey in advance.&lt;/code&gt; Most of the power of authoritarianism is freely given. In times like these, individuals
+think ahead about what a more repressive government will want, and then offer themselves without being asked. A citizen
+who adapts in this way is teaching power what it can do.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;2. Defend institutions.&lt;/code&gt; It is institutions that help us to preserve decency. They need our help as well. Do not speak
+of “our institutions” unless you make them yours by acting on their behalf. Institutions do not protect themselves. So
+choose an institution you care about and take its side.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;3. Beware the one-party state.&lt;/code&gt; The parties that remade states and suppressed rivals were not omnipotent from the
+start. They exploited a historic moment to make political life impossible for their opponents. So support the
+multi-party system and defend the rules of democratic elections.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;4. Take responsibility for the face of the world.&lt;/code&gt; The symbols of today enable the reality of tomorrow. Notice the
+swastikas and other signs of hate. Do not look away, and do not get used to them. Remove them yourself and set an
+example for others to do so.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;5. Remember professional ethics.&lt;/code&gt; When political leaders set a negative example, professional commitments to just
+practice become important. It is hard to subvert a rule-of-law state without lawyers, or to hold show trials without
+judges. Authoritarians need obedient civil servants, and concentration camp directors seek businessmen interested in
+cheap labor.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;6. Be wary of paramilitaries.&lt;/code&gt; When the men with guns who have always claimed to be against the system start wearing
+uniforms and marching around with torches and pictures of a Leader, the end is nigh. When the pro-leader paramilitary
+and the official police and military intermingle, the end has come.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;7. Be reflective if you must be armed.&lt;/code&gt; If you carry a weapon in public service, God bless you and keep you. But know
+that evils of the past involved policemen and soldiers finding themselves, one day, doing irregular things. Be ready to
+say no.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;8. Stand out.&lt;/code&gt; Someone has to. It is easy to follow along. It can feel strange to do or say something different. But
+without that unease, there is no freedom. Remember Rosa Parks. The moment you set an example, the spell of the status
+quo is broken, and others will follow.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;9. Be kind to our language.&lt;/code&gt; Avoid pronouncing the phrases everyone else does. Think up your own way of speaking, even
+if only to convey that thing you think everyone is saying. Make an effort to separate yourself from the internet. Read
+books.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;10. Believe in truth.&lt;/code&gt; To abandon facts is to abandon freedom. If nothing is true, then no one can criticize power
+because there is no basis upon which to do so. If nothing is true, then all is spectacle. The biggest wallet pays for
+the most blinding lights.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;11. Investigate.&lt;/code&gt; Figure things out for yourself. Spend more time with long articles. Subsidize investigative
+journalism by subscribing to print media. Realize that some of what is on the internet is there to harm you. Learn about
+sites that investigate propaganda campaigns (some of which come from abroad). Take responsibility for what you
+communicate to others.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;12. Make eye contact and small talk.&lt;/code&gt; This is not just polite. It is part of being a citizen and a responsible member
+of society. It is also a way to stay in touch with your surroundings, break down social barriers, and understand whom
+you should and should not trust. If we enter a culture of denunciation, you will want to know the psychological
+landscape of your daily life.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;13. Practice corporeal politics.&lt;/code&gt; Power wants your body softening in your chair and your emotions dissipating on the
+screen. Get outside. Put your body in unfamiliar places with unfamiliar people. Make new friends and march with them.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;14. Establish a private life.&lt;/code&gt; Nastier rulers will use what they know about you to push you around. Scrub your computer
+of malware. Remember that email is skywriting. Consider using alternative forms of the Internet, or simply using it
+less. Have personal exchanges in person. For the same reason, resolve any legal trouble.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;15. Contribute to good causes.&lt;/code&gt; Be active in organizations, political or not, that express your own view of life. Pick
+a charity or two and set up autopay.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;16. Learn from peers in other countries.&lt;/code&gt; Keep up your friendships abroad, or make new friends abroad. The present
+difficulties in the United States are an element of a larger trend. And no country is going to find a solution by
+itself. Make sure you and your family have passports.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;17. Listen for dangerous words.&lt;/code&gt; Be alert to the use of the words extremism and terrorism. Be alive to the fatal
+notions of emergency and exception. Be angry about the treacherous use of patriotic vocabulary.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;18. Be calm when the unthinkable arrives.&lt;/code&gt; Modern tyranny is terror management. When the terrorist attack comes,
+remember that authoritarians exploit such events in order to consolidate power. Do not fall for it.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;19. Be a patriot.&lt;/code&gt; Set a good example of what America means for the generations to come.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;20. Be as courageous as you can.&lt;/code&gt; If none of us is prepared to die for freedom, then all of us will die under tyranny.&lt;/p&gt;</content:encoded></item></channel></rss>

@@ -15,6 +15,7 @@ const Layout = ({location, title, children}: { location, title, children }) => {
           }
           social {
             email
+            twitter
           }
         }
       }
@@ -47,7 +48,7 @@ const Layout = ({location, title, children}: { location, title, children }) => {
                     <section>
                         © {new Date().getFullYear()}, Written by
                         {` `}
-                        <a href={`https://twitter.com/${social?.twitter || ``}`} target={`_blank`}>
+                        <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank">
                             {author.name}
                         </a>
                     </section>
