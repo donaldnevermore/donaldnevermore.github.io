@@ -9,7 +9,7 @@ const withNextra = require('nextra')({
   })
 
   module.exports = withNextra({
-    assetPrefix: isProd ? '/donaldnevermore.github.io/' : '',
+    assetPrefix: isProd ? './' : '',
     reactStrictMode: true,
     images: {
         unoptimized: true,
