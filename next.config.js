@@ -1,5 +1,3 @@
-const isProd = process.env.NODE_ENV === 'production'
-
 const withNextra = require('nextra')({
     theme: 'nextra-theme-blog',
     themeConfig: './theme.config.jsx',
@@ -9,7 +7,7 @@ const withNextra = require('nextra')({
   })
 
   module.exports = withNextra({
-    assetPrefix: isProd ? './' : '',
+    assetPrefix: './',
     reactStrictMode: true,
     images: {
         unoptimized: true,
