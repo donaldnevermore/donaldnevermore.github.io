@@ -35,9 +35,10 @@ export default {
         </>
       ),
       readMore: 'Read More →',
-      postFooter: <a href="https://github.com/donaldnevermore/donaldnevermore.github.io/issues"
-      target="_blank">
-      Reply to this post on GitHub
-      </a>,
+      postFooter: (
+        <a href="https://github.com/donaldnevermore/donaldnevermore.github.io/issues" target="_blank">
+            Reply to this post on GitHub
+        </a>
+      ),
       darkMode: true
   }
