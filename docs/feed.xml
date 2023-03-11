@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[donaldnevermore]]></title>
+        <description><![CDATA[donaldnevermore]]></description>
+        <link>https://donaldnevermore.github.io/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 11 Mar 2023 13:14:58 GMT</lastBuildDate>
+        <atom:link href="https://donaldnevermore.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 11 Mar 2023 13:14:58 GMT</pubDate>
+        <item>
+            <title><![CDATA[fork and printf]]></title>
+            <description><![CDATA[No description]]></description>
+            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\fork-and-printf</link>
+            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\fork-and-printf</guid>
+            <category><![CDATA[OS]]></category>
+            <pubDate>Fri, 23 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Thoughts]]></title>
+            <description><![CDATA[No description]]></description>
+            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\index</link>
+            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\index</guid>
+            <pubDate>Fri, 03 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Road Not Taken]]></title>
+            <description><![CDATA[No description]]></description>
+            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\the-road-not-taken</link>
+            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\the-road-not-taken</guid>
+            <category><![CDATA[poems]]></category>
+            <pubDate>Fri, 09 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Raven]]></title>
+            <description><![CDATA[No description]]></description>
+            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\the-raven</link>
+            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\the-raven</guid>
+            <category><![CDATA[poems]]></category>
+            <pubDate>Mon, 05 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Twenty Lessons on Fighting Tyranny from the Twentieth Century]]></title>
+            <description><![CDATA[No description]]></description>
+            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\twenty-lessons</link>
+            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\twenty-lessons</guid>
+            <category><![CDATA[politics]]></category>
+            <pubDate>Thu, 07 Jan 2021 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
