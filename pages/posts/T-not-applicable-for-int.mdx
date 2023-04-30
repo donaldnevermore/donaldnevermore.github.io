@@ -1,0 +1,34 @@
+---
+title: T[] is not applicable for int[] in Java
+date: 2023-04-30
+tag: backend
+---
+
+Type cast involving arrays is weird in Java. When I do this, I got an error.
+
+```java
+int[] arr = { 4, 9, 3, 1 }; // error
+var i = Q2.check(arr);
+```
+
+The `check` method looks like this:
+
+```java
+public static <T extends Comparable<T>> boolean check(T[] arr) {
+    var copy = Arrays.copyOf(arr, arr.length);
+
+    Shell.sort(arr);
+    Arrays.sort(copy);
+
+    return Arrays.equals(arr, copy);
+}
+```
+
+`"The method check(T[]) in the type Q2 is not applicable for the arguments (int[]),"` the compiler complains.
+
+And I have to change `int` to `Integer` in order to make it work. I guess Java just handles int and Integer differently.
+
+```java
+Integer[] arr = { 4, 9, 3, 1 };
+var i = Q2.check(arr);
+```
