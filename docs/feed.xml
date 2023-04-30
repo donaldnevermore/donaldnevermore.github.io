@@ -4,53 +4,61 @@
         <description><![CDATA[donaldnevermore]]></description>
         <link>https://donaldnevermore.github.io/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 12 Mar 2023 09:00:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 30 Apr 2023 14:33:53 GMT</lastBuildDate>
         <atom:link href="https://donaldnevermore.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sun, 12 Mar 2023 09:00:29 GMT</pubDate>
+        <pubDate>Sun, 30 Apr 2023 14:33:53 GMT</pubDate>
         <item>
             <title><![CDATA[fork and printf]]></title>
             <description><![CDATA[No description]]></description>
-            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\fork-and-printf</link>
-            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\fork-and-printf</guid>
+            <link>https://donaldnevermore.github.io/posts/fork-and-printf</link>
+            <guid isPermaLink="true">https://donaldnevermore.github.io/posts/fork-and-printf</guid>
             <category><![CDATA[OS]]></category>
             <pubDate>Fri, 23 Apr 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Raven]]></title>
+            <title><![CDATA[Thoughts]]></title>
             <description><![CDATA[No description]]></description>
-            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\the-raven</link>
-            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\the-raven</guid>
-            <category><![CDATA[quote]]></category>
-            <pubDate>Mon, 05 Apr 2021 00:00:00 GMT</pubDate>
+            <link>https://donaldnevermore.github.io/posts/index</link>
+            <guid isPermaLink="true">https://donaldnevermore.github.io/posts/index</guid>
+            <pubDate>Fri, 03 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[T[] is not applicable for int[] in Java]]></title>
+            <description><![CDATA[No description]]></description>
+            <link>https://donaldnevermore.github.io/posts/T-not-applicable-for-int</link>
+            <guid isPermaLink="true">https://donaldnevermore.github.io/posts/T-not-applicable-for-int</guid>
+            <category><![CDATA[backend]]></category>
+            <pubDate>Sun, 30 Apr 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[TypeScript implementation of Promise]]></title>
             <description><![CDATA[No description]]></description>
-            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\promise</link>
-            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\promise</guid>
+            <link>https://donaldnevermore.github.io/posts/promise</link>
+            <guid isPermaLink="true">https://donaldnevermore.github.io/posts/promise</guid>
             <category><![CDATA[frontend]]></category>
             <pubDate>Sun, 12 Mar 2023 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Thoughts]]></title>
-            <description><![CDATA[No description]]></description>
-            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\index</link>
-            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\index</guid>
-            <pubDate>Fri, 03 Jan 2020 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[The Road Not Taken]]></title>
             <description><![CDATA[No description]]></description>
-            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\the-road-not-taken</link>
-            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\the-road-not-taken</guid>
+            <link>https://donaldnevermore.github.io/posts/the-road-not-taken</link>
+            <guid isPermaLink="true">https://donaldnevermore.github.io/posts/the-road-not-taken</guid>
             <category><![CDATA[quote]]></category>
             <pubDate>Fri, 09 Apr 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[The Raven]]></title>
+            <description><![CDATA[No description]]></description>
+            <link>https://donaldnevermore.github.io/posts/the-raven</link>
+            <guid isPermaLink="true">https://donaldnevermore.github.io/posts/the-raven</guid>
+            <category><![CDATA[quote]]></category>
+            <pubDate>Mon, 05 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Twenty Lessons on Fighting Tyranny from the Twentieth Century]]></title>
             <description><![CDATA[No description]]></description>
-            <link>E:\Monorepos\donaldnevermore.github.io\pages\posts\twenty-lessons</link>
-            <guid isPermaLink="true">E:\Monorepos\donaldnevermore.github.io\pages\posts\twenty-lessons</guid>
+            <link>https://donaldnevermore.github.io/posts/twenty-lessons</link>
+            <guid isPermaLink="true">https://donaldnevermore.github.io/posts/twenty-lessons</guid>
             <category><![CDATA[quote]]></category>
             <pubDate>Thu, 07 Jan 2021 00:00:00 GMT</pubDate>
         </item>
