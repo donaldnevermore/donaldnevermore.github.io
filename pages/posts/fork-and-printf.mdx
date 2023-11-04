@@ -12,7 +12,7 @@ I was surprised and could not figure out why for a while. Since I am using CLion
 
 No wonder.
 
-After a long time of thinking, I related to procedures of how shells work. When you type in a command and hit enter, the shell program first creates a process to run that command. The control soon returns to the shell after the command program is finished. However, if the command program creates a subprocess, and the subprocess is still running even if the main process has already returned, this can happen.
+After a long time of thinking, I related to procedures of how shells work. When you type in a command and hit enter, the shell calls `fork()` to create a new child process to run the command. The control soon returns to the shell after the command program is finished. However, if the command program creates a subprocess, and the subprocess is still running even if the main process has already returned, this can happen.
 
 In order to check my assumption, I decided to `wait()` for the child process to finish. And this time it worked perfectly.
 

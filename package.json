@@ -1,38 +1,38 @@
 {
-    "name": "donaldnevermore-blog",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "dev": "next",
-        "build": "node ./scripts/gen-rss.js && next build && next export",
-        "start": "next start",
-        "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "donaldnevermore-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "node ./scripts/gen-rss.js && next build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^13.3.2",
+    "nextra": "^2.4.2",
+    "nextra-theme-blog": "^2.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "dependenciesMeta": {
+    "nextra": {
+      "injected": true
     },
-    "dependencies": {
-        "gray-matter": "^4.0.3",
-        "next": "^13.3.2",
-        "nextra": "^2.4.2",
-        "nextra-theme-blog": "^2.4.2",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "rss": "^1.2.2"
-    },
-    "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.59.1",
-        "@typescript-eslint/parser": "^5.59.1",
-        "eslint": "^8.39.0",
-        "eslint-plugin-react": "^7.32.2"
-    },
-    "dependenciesMeta": {
-        "nextra": {
-            "injected": true
-        },
-        "nextra-theme-blog": {
-            "injected": true
-        }
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT"
+    "nextra-theme-blog": {
+      "injected": true
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
 }
