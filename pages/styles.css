@@ -1,3 +1,4 @@
 article {
-    max-width: 120ch !important;
+  max-width: 150ch !important;
+  font-size: 1.5em !important;
 }

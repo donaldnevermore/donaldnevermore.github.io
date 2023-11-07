@@ -15,12 +15,12 @@ The `check` method looks like this:
 
 ```java
 public static <T extends Comparable<T>> boolean check(T[] arr) {
-    var copy = Arrays.copyOf(arr, arr.length);
+  var copy = Arrays.copyOf(arr, arr.length);
 
-    Shell.sort(arr);
-    Arrays.sort(copy);
+  Shell.sort(arr);
+  Arrays.sort(copy);
 
-    return Arrays.equals(arr, copy);
+  return Arrays.equals(arr, copy);
 }
 ```
 
